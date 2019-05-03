@@ -63,8 +63,8 @@ const Experience = () => (
 					<ul>
 						<li>
 							Automated repository migrations by repurposing selenium
-							scripts which led to reducing the cost of the project to
-							10% of the forecasted cost of $10,000.
+							scripts which led to a 90% reduction of the project cost
+							from $10,000 to $1,000.
 						</li>
 						<li>
 							Prototyped a design for web application by creating

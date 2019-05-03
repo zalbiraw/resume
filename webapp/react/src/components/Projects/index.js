@@ -15,7 +15,7 @@ const Projects = () => (
 						Parallelized Ray Tracer
 					</div>
 					<div className = 'github'>
-						github.com/zalbiraw/IRC-Client
+						github.com/zalbiraw/cuda_raytrace
 					</div>
 					<div className = 'summary'>
 							Parallelized the Ray Tracing algorithm using the CUDA
@@ -27,7 +27,7 @@ const Projects = () => (
 						IRC Chat Client
 					</div>
 					<div className = 'github'>
-						github.com/zalbiraw/cuda_raytrace
+						github.com/zalbiraw/IRC-Client
 					</div>
 					<div className = 'summary'>
 						Developed an IRC chat client and processed network
