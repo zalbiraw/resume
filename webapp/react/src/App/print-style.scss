@@ -1,0 +1,17 @@
+@media print {
+	body {
+		-webkit-print-color-adjust: exact!important;
+	}
+
+	.resume-container {
+		margin: 0;
+	}
+
+	.resume {
+		box-shadow: none;
+	}
+}
+
+@page {
+	margin: 0;
+}

@@ -1,0 +1,82 @@
+.skills {
+
+	.skill-list {
+		display: flex;
+		flex-direction: column;
+
+		width: 100%;
+
+		.skill-type {
+			display: flex;
+			flex-wrap: nowrap;
+
+			.title {
+				min-width: 100px;
+				padding: 10px 0;
+
+				&::after {
+					content: ':';
+					margin-right: 0.1in;
+				}
+			}
+		}
+
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+
+			margin: 0;
+			padding: 0;
+
+			li {
+				padding: 5px;
+				margin: 2px;
+				border-radius: 5px;
+
+				list-style: none;
+
+				&.proficient {
+					color: $secondary;
+					background-color: $primary;
+					border: 1px solid $primary;
+				}
+
+				&.familiar {
+					color: $primary;
+					border: 1px solid $primary;
+				}
+
+			}
+
+		}
+
+	}
+
+	.indicators {
+		display: flex;
+		justify-content: flex-end;
+
+		width: 100%;
+
+		.indicator {
+			padding: 0 5px;
+
+			&::before {
+				content: '';
+				display: inline-block;
+				width: 8px;
+				height: 8px;
+
+				border: 1px solid $primary;
+				border-radius: 10px;
+				margin-right: 5px;
+			}
+		}
+
+		.proficient::before {
+			background-color: $primary
+		}
+
+	}
+
+}

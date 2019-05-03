@@ -1,0 +1,46 @@
+.experiance {
+	.jobs {
+		width: 100%;
+
+		.job {
+
+			& > .title {
+				color: $primary;
+			}
+
+			.company {
+				display: flex;
+				justify-content: space-between;
+
+				.title {
+					@extend .secondary-font;
+				}
+
+				.duration {
+					display: flex;
+
+					.from::after {
+						@extend .date-dash;
+					}
+				}
+			}
+
+			ul {
+				padding-left: 0;
+				margin-bottom: 0;
+
+				@extend .sub-element-spacing;
+
+				li {
+					@extend .bullet-style;
+				}
+			}
+
+			&:not(:first-child) {
+				@extend .sub-element-spacing;
+			}
+
+		}
+	}
+
+}

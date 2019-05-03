@@ -1,0 +1,38 @@
+.education {
+	.degree {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: nowrap;
+		width: 100%;
+
+		&:not(:first-child) {
+			@extend .sub-element-spacing;
+		}
+
+		.title span {
+			color: $primary;
+		}
+
+		.university {
+			@extend .secondary-font;
+		}
+
+		.graduation {
+			display: flex;
+			flex-wrap: nowrap;
+			justify-content: flex-end;
+
+			.from::after {
+				@extend .date-dash;
+			}
+		}
+
+		.gpa {
+			text-align: right;
+
+			&::after {
+				content: ' GPA';
+			}
+		}
+	}
+}

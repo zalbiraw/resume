@@ -1,0 +1,26 @@
+.awards {
+	.award {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: nowrap;
+		width: 100%;
+
+		&:not(:first-child) {
+			@extend .sub-element-spacing;
+		}
+
+		.award-info .from {
+			@extend .secondary-font;
+		}
+
+		.date {
+			display: flex;
+			flex-wrap: nowrap;
+			justify-content: flex-end;
+
+			.from::after {
+				@extend .date-dash;
+			}
+		}
+	}
+}
