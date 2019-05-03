@@ -123,8 +123,8 @@ body {
 	}
 
 	&:first-child > .column {
-		height: calc(100% - 0.5in + 1px);
-		padding: 0.25in 0.25in;
+		height: calc(100% - 0.3in + 1px);
+		padding: 0.15in 0.25in;
 
 		&::before {
 			content: none;

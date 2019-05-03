@@ -7,6 +7,7 @@ import Skills     from '../components/Skills/index'
 import Experience from '../components/Experience/index'
 import Projects   from '../components/Projects/index'
 import Awards   	from '../components/Awards/index'
+import Interests  from '../components/Interests/index'
 
 import './style.scss'
 
@@ -20,6 +21,7 @@ const App = () => (
 			<Education />
 			<Projects />
 			<Awards />
+			<Interests />
 		</div>
 	</div>
 
