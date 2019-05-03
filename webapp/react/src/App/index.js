@@ -4,7 +4,7 @@ import Header     from '../components/Header/index'
 import Profile    from '../components/Profile/index'
 import Education  from '../components/Education/index'
 import Skills     from '../components/Skills/index'
-import Experiance from '../components/Experiance/index'
+import Experience from '../components/Experience/index'
 import Projects   from '../components/Projects/index'
 import Awards   	from '../components/Awards/index'
 
@@ -16,7 +16,7 @@ const App = () => (
 			<Header />
 			<Profile />
 			<Skills />
-			<Experiance />
+			<Experience />
 			<Education />
 			<Projects />
 			<Awards />

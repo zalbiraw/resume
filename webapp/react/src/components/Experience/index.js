@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Experiance = () => (
-	<section className = 'row experiance'>
+const Experience = () => (
+	<section className = 'row experience'>
 		<article className = 'column left'>
 			<div className = 'title'>
 				<i className = 'fas fa-briefcase' />
-				Experiance
+				Experience
 			</div>
 		</article>
 		<article className = 'column right'>
@@ -38,7 +38,7 @@ const Experiance = () => (
 							projects which led to a decrease in code redundancy.
 						</li>
 						<li>
-							Utilizaed Docker to containerize projects which led to
+							Utilized Docker to containerize projects which led to
 							greater SoC.
 						</li>
 					</ul>
@@ -83,4 +83,4 @@ const Experiance = () => (
 	</section>
 )
 
-export default Experiance
+export default Experience
