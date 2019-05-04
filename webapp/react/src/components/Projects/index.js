@@ -9,7 +9,7 @@ const Projects = () => (
 			<div className = 'github'>
 				github.com/zalbiraw/cuda_raytrace
 			</div>
-			<div className = 'summary'>
+			<div className = 'details'>
 					Parallelized the Ray Tracing algorithm using the CUDA
 					parallel computing framework in C.
 			</div>
@@ -21,7 +21,7 @@ const Projects = () => (
 			<div className = 'github'>
 				github.com/zalbiraw/IRC-Client
 			</div>
-			<div className = 'summary'>
+			<div className = 'details'>
 				Developed an IRC chat client and processed network
 				traffic in C.
 			</div>

@@ -67,11 +67,8 @@
 			}
 		}
 
-		.proficient{
-			color: $primary;
-			&::before {
-				background-color: $primary
-			}
+		.proficient::before {
+			background-color: $primary
 		}
 	}
 }

@@ -95,7 +95,7 @@ const Experience = () => (
 				</div>
 				<div className = 'date'>
 					<div className = 'from'>
-						Aug 2017
+						Sep 2017
 					</div>
 					<div className = 'to'>
 						Apr 2019
