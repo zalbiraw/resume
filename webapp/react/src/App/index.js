@@ -15,7 +15,7 @@ const section = (component, title, className, icon) => (
 	<section className = {'row ' + className}>
 		<article className = 'column left'>
 			<div className = 'title'>
-				{ icon ? <i className = {icon} /> : null }
+				{ icon ? <i className = {'fas fa-' + icon} /> : null }
 				{title}
 			</div>
 		</article>
@@ -28,13 +28,13 @@ const App = () => (
 		<div className = 'resume'>
 
 			{section(<Header />,     'Zaid Albirawi', 'header')}
-			{section(<Profile />,    'Profile',       'profile',    'fas fa-user')}
-			<Skills />
-			{section(<Experience />, 'Experience',    'experience', 'fas fa-briefcase')}
-			{section(<Education />,  'Education',     'education',  'fas fa-graduation-cap')}
-			{section(<Projects />,   'Projects',      'projects',   'fas fa-flask')}
-			{section(<Awards />,     'Awards',        'awards',     'fas fa-trophy')}
-			{section(<Interests />,  'Interests',     'interests',  'fas fa-futbol')}
+			{section(<Profile />,    'Profile',       'profile',    'user')}
+			{section(<Skills />,     'Skills',        'skills',     'star')}
+			{section(<Experience />, 'Experience',    'experience', 'briefcase')}
+			{section(<Education />,  'Education',     'education',  'graduation-cap')}
+			{section(<Projects />,   'Projects',      'projects',   'flask')}
+			{section(<Awards />,     'Awards',        'awards',     'trophy')}
+			{section(<Interests />,  'Interests',     'interests',  'futbol')}
 
 			<section className = 'row'>
 				<article className = 'column left'>
