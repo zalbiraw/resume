@@ -5,9 +5,15 @@
 $primary: #0075FA;
 $secondary: #F8F8F8;
 
-.date-dash {
-	content: '-';
-	margin: 0 0.02in;
+
+
+.date {
+	display: flex;
+
+	.from::after {
+		content: '-';
+		margin: 0 0.02in;
+	}
 }
 
 .secondary-font {

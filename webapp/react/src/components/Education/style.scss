@@ -1,38 +1,26 @@
-.education {
-	.degree {
-		display: flex;
-		justify-content: space-between;
-		flex-wrap: nowrap;
-		width: 100%;
+.degree {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	width: 100%;
 
-		&:not(:first-child) {
-			@extend .sub-element-spacing;
-		}
+	&:not(:first-child) {
+		@extend .sub-element-spacing;
+	}
 
-		.title span {
-			color: $primary;
-		}
+	.title span {
+		color: $primary;
+	}
 
-		.university {
-			@extend .secondary-font;
-		}
+	.institute {
+		@extend .secondary-font;
+	}
 
-		.graduation {
-			display: flex;
-			flex-wrap: nowrap;
-			justify-content: flex-end;
+	.gpa {
+		text-align: right;
 
-			.from::after {
-				@extend .date-dash;
-			}
-		}
-
-		.gpa {
-			text-align: right;
-
-			&::after {
-				content: ' GPA';
-			}
+		&::after {
+			content: ' GPA';
 		}
 	}
 }

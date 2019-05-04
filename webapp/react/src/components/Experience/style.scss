@@ -8,18 +8,9 @@
 		.title {
 			color: $primary;
 		}
-
-		.duration {
-			display: flex;
-
-			.from::after {
-				@extend .date-dash;
-			}
-		}
-
 	}
 
-	.company {
+	.employer {
 		@extend .secondary-font;
 	}
 

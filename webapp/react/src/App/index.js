@@ -32,7 +32,11 @@ const App = () => (
 				<Experience />
 			</section>
 
-			<Education />
+			<section className = 'row education'>
+				{leftColumn('Education', 'fas fa-graduation-cap')}
+				<Education />
+			</section>
+
 			<Projects />
 
 			<section className = 'row awards'>
