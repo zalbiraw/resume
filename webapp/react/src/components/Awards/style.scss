@@ -5,6 +5,10 @@
 		flex-wrap: nowrap;
 		width: 100%;
 
+		.title {
+			color: $primary;
+		}
+
 		&:not(:first-child) {
 			@extend .sub-element-spacing;
 		}

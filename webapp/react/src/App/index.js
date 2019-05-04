@@ -22,6 +22,12 @@ const App = () => (
 			<Projects />
 			<Awards />
 			<Interests />
+			<section className = 'row'>
+				<article className = 'column left'>
+				</article>
+				<article className = 'column right'>
+				</article>
+			</section>
 		</div>
 	</div>
 

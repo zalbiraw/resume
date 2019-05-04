@@ -11,12 +11,9 @@ const Experience = () => (
 		<article className = 'column right'>
 			<div className = 'jobs'>
 				<div className = 'job'>
-					<div className = 'title'>
-						Intermediate Full Stack Developer
-					</div>
-					<div className = 'company'>
+					<div className = 'header'>
 						<div className = 'title'>
-							Eighty8 Ventures, London, ON, CA
+							Intermediate Full Stack Developer
 						</div>
 						<div className = 'duration'>
 							<div className = 'from'>
@@ -26,6 +23,9 @@ const Experience = () => (
 								Apr 2019
 							</div>
 						</div>
+					</div>
+					<div className = 'company'>
+						Eighty8 Ventures, London, ON, CA
 					</div>
 					<ul>
 						<li>
@@ -44,12 +44,9 @@ const Experience = () => (
 					</ul>
 				</div>
 				<div className = 'job'>
-					<div className = 'title'>
-						Associate Software Developer
-					</div>
-					<div className = 'company'>
+					<div className = 'header'>
 						<div className = 'title'>
-							London Life, London, ON, CA
+							Associate Software Developer
 						</div>
 						<div className = 'duration'>
 							<div className = 'from'>
@@ -59,6 +56,9 @@ const Experience = () => (
 								Aug 2016
 							</div>
 						</div>
+					</div>
+					<div className = 'company'>
+						London Life, London, ON, CA
 					</div>
 					<ul>
 						<li>
@@ -77,6 +77,24 @@ const Experience = () => (
 							and conducting code reviews.
 						</li>
 					</ul>
+				</div>
+				<div className = 'job'>
+					<div className = 'header'>
+						<div className = 'title'>
+							Naval Warfare Officer
+						</div>
+						<div className = 'duration'>
+							<div className = 'from'>
+								Jun 2017
+							</div>
+							<div className = 'to'>
+								Ongoing
+							</div>
+						</div>
+					</div>
+					<div className = 'company'>
+						HMCS PREVOST, Canadian Armed Forces, London, ON, CA
+					</div>
 				</div>
 			</div>
 		</article>

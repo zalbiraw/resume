@@ -10,11 +10,11 @@ const Profile = () => (
 		</article>
 		<article className = 'column right'>
 			<div className = 'summary'>
-				Energetic software engineer with 3+ years of experience in
-				full stack development. Knowledgeable of high-performance
-				computing, machine learning, and networking. Team player
-				with a can-do attitude. Detail oriented, always strives for
-				perfection. Loves learning.
+				Detail-oriented software engineer with 3+ years of
+				experience in full stack development. Knowledgeable of
+				high-performance computing, machine learning, and networking.
+				Team player with a positive outlook to ensure optimal
+				performance. Energetic, versatile and loves learning.
 			</div>
 		</article>
 	</section>
