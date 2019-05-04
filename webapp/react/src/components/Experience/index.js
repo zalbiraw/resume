@@ -88,6 +88,24 @@ const Experience = () => (
 				Canadian Armed Forces Primary Reserves
 			</div>
 		</div>
+		<div className = 'job'>
+			<div className = 'header'>
+				<div className = 'title'>
+					Graduate Teaching Assistant
+				</div>
+				<div className = 'date'>
+					<div className = 'from'>
+						Aug 2017
+					</div>
+					<div className = 'to'>
+						Apr 2019
+					</div>
+				</div>
+			</div>
+			<div className = 'employer'>
+				Western University, London, ON, CA
+			</div>
+		</div>
 	</article>
 )
 

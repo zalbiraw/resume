@@ -55,7 +55,7 @@
 		&.right {
 			width: 75%;
 
-			padding: 0.1in 0.3in;
+			padding: 0.075in 0.3in;
 
 			background-color: $secondary;
 
@@ -71,25 +71,19 @@
 			width: 80%;
 			height: 1px;
 			border-top: 1px solid $secondary;
-			margin-top: -0.1in;
-			padding-top: 0.1in;
+			margin-top: -0.075in;
+			padding-top: 0.075in;
 		}
 
 	}
 
-	&:first-child {
+	&:first-child .column::before {
+		content: none;
+	}
+
+	&:first-child,
+	&:last-child {
 		flex-grow: 1;
-
-		.column {
-			padding-top: 0.2in;
-		}
-
-		.column::before {
-			content: none;
-		}
 	}
 
-	&:last-child > .column {
-		padding-bottom: 0.2in;
-	}
 }
