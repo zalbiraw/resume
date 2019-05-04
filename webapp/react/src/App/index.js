@@ -26,13 +26,20 @@ const App = () => (
 			<Header />
 			<Profile />
 			<Skills />
-			<Experience />
+
+			<section className = 'row experience'>
+				{leftColumn('Experience', 'fas fa-briefcase')}
+				<Experience />
+			</section>
+
 			<Education />
 			<Projects />
+
 			<section className = 'row awards'>
 				{leftColumn('Awards', 'fas fa-trophy')}
 				<Awards />
 			</section>
+
 			<Interests />
 			<section className = 'row'>
 				<article className = 'column left'>

@@ -1,46 +1,41 @@
-.experience {
-	.jobs {
-		width: 100%;
+.job {
+	width: 100%;
 
-		.job {
+	.header {
+		display: flex;
+		justify-content: space-between;
 
-			& .header {
-				display: flex;
-				justify-content: space-between;
-
-				.title {
-					color: $primary;
-				}
-
-				.duration {
-					display: flex;
-
-					.from::after {
-						@extend .date-dash;
-					}
-				}
-
-			}
-			.company {
-				@extend .secondary-font;
-			}
-
-			ul {
-				padding-left: 0;
-				margin-bottom: 0;
-
-				@extend .sub-element-spacing;
-
-				li {
-					@extend .bullet-style;
-				}
-			}
-
-			&:not(:first-child) {
-				@extend .sub-element-spacing;
-			}
-
+		.title {
+			color: $primary;
 		}
+
+		.duration {
+			display: flex;
+
+			.from::after {
+				@extend .date-dash;
+			}
+		}
+
+	}
+
+	.company {
+		@extend .secondary-font;
+	}
+
+	ul {
+		padding-left: 0;
+		margin-bottom: 0;
+
+		@extend .sub-element-spacing;
+
+		li {
+			@extend .bullet-style;
+		}
+	}
+
+	&:not(:first-child) {
+		@extend .sub-element-spacing;
 	}
 
 }

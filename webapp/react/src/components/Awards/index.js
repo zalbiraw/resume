@@ -3,7 +3,7 @@ import React from 'react'
 const Awards = () => (
 	<article className = 'column right'>
 		<div className = 'award'>
-			<div className = 'award-info'>
+			<div>
 				<div className = 'title'>
 					Julian Davies Silver Medalist
 				</div>
@@ -16,7 +16,7 @@ const Awards = () => (
 			</div>
 		</div>
 		<div className = 'award'>
-			<div className = 'award-info'>
+			<div>
 				<div className = 'title'>
 					Dean's Honour Roll
 				</div>
