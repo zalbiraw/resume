@@ -32,7 +32,7 @@ const App = () => (
 			<Skills />
 			{section(<Experience />, 'Experience',    'experience', 'fas fa-briefcase')}
 			{section(<Education />,  'Education',     'education',  'fas fa-graduation-cap')}
-			<Projects />
+			{section(<Projects />,   'Projects',      'projects',   'fas fa-flask')}
 			{section(<Awards />,     'Awards',        'awards',     'fas fa-trophy')}
 			{section(<Interests />,  'Interests',     'interests',  'fas fa-futbol')}
 
