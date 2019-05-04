@@ -14,7 +14,7 @@ import './style.scss'
 const leftColumn = (title, icon) => (
 		<article className = 'column left'>
 			<div className = 'title'>
-				<i className = {icon} />
+				{ icon ? <i className = {icon} /> : null }
 				{title}
 			</div>
 		</article>
@@ -23,7 +23,12 @@ const leftColumn = (title, icon) => (
 const App = () => (
 	<div className = 'resume-container'>
 		<div className = 'resume'>
-			<Header />
+
+			<section className = 'row header'>
+				{leftColumn('Zaid Albirawi')}
+				<Header />
+			</section>
+
 			<Profile />
 			<Skills />
 

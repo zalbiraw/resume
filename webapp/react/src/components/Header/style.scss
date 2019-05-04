@@ -1,25 +1,27 @@
-.name {
-	font-size: 0.325in;
-}
+.header {
+	.title {
+		font-size: 0.325in;
+	}
 
-.contact-information {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-
-	width: 100%;
-	height: 100%;
-
-	& > .column {
+	.contact-information {
 		display: flex;
-		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
 
+		width: 100%;
 		height: 100%;
 
-		i {
-			color: $primary;
-			margin-right: 0.05in;
-		}
+		& > .column {
+			display: flex;
+			flex-direction: column;
 
+			height: 100%;
+
+			i {
+				color: $primary;
+				margin-right: 0.05in;
+			}
+
+		}
 	}
 }
