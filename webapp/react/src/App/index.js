@@ -11,6 +11,15 @@ import Interests  from '../components/Interests/index'
 
 import './style.scss'
 
+const leftColumn = (title, icon) => (
+		<article className = 'column left'>
+			<div className = 'title'>
+				<i className = {icon} />
+				{title}
+			</div>
+		</article>
+)
+
 const App = () => (
 	<div className = 'resume-container'>
 		<div className = 'resume'>
@@ -20,7 +29,10 @@ const App = () => (
 			<Experience />
 			<Education />
 			<Projects />
-			<Awards />
+			<section className = 'row awards'>
+				{leftColumn('Awards', 'fas fa-trophy')}
+				<Awards />
+			</section>
 			<Interests />
 			<section className = 'row'>
 				<article className = 'column left'>
@@ -30,7 +42,6 @@ const App = () => (
 			</section>
 		</div>
 	</div>
-
 )
 
 export default App

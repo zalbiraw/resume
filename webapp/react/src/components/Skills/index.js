@@ -57,11 +57,11 @@ const Skills = () => (
 						<li className = 'familiar'>MacOS</li>
 						<li className = 'familiar'>Vagrant</li>
 					</ul>
+					<div className = 'indicators'>
+						<div className = 'proficient indicator'>Proficient</div>
+						<div className = 'familiar indicator'>Familiar</div>
+					</div>
 				</div>
-			</div>
-			<div className = 'indicators'>
-				<div className = 'proficient indicator'>Proficient</div>
-				<div className = 'familiar indicator'>Familiar</div>
 			</div>
 		</article>
 	</section>
