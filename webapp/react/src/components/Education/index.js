@@ -28,7 +28,8 @@ const Education = () => (
 		<div className = 'degree'>
 			<div className = 'column'>
 				<div className = 'title'>
-					Bachelor of Science in <span>Computer Science</span> w/ Honours and Specialization
+					Bachelor of Science in <span>Computer Science</span>
+					w/ Honours and Specialization
 				</div>
 				<div className = 'institute'>
 					Western University, London, ON, CA
