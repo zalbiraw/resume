@@ -5,8 +5,6 @@
 $primary: #0075FA;
 $secondary: #F8F8F8;
 
-
-
 .date {
 	display: flex;
 
@@ -151,7 +149,6 @@ body {
 	}
 }
 
-
 @import './print-style.scss';
 
 @import '../components/Header/style.scss';
@@ -160,5 +157,4 @@ body {
 @import '../components/Experience/style.scss';
 @import '../components/Projects/style.scss';
 @import '../components/Awards/style.scss';
-@import '../components/Interests/style.scss';
 

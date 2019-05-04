@@ -49,7 +49,12 @@ const App = () => (
 				<Awards />
 			</section>
 
-			<Interests />
+
+			<section className = 'row interests'>
+				{leftColumn('Interests', 'fas fa-futbol')}
+				<Interests />
+			</section>
+
 			<section className = 'row'>
 				<article className = 'column left'>
 				</article>
