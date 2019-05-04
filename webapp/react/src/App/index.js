@@ -11,53 +11,30 @@ import Interests  from '../components/Interests/index'
 
 import './style.scss'
 
-const leftColumn = (title, icon) => (
+const section = (component, title, className, icon) => (
+	<section className = {'row ' + className}>
 		<article className = 'column left'>
 			<div className = 'title'>
 				{ icon ? <i className = {icon} /> : null }
 				{title}
 			</div>
 		</article>
+		{component}
+	</section>
 )
 
 const App = () => (
 	<div className = 'resume-container'>
 		<div className = 'resume'>
 
-			<section className = 'row header'>
-				{leftColumn('Zaid Albirawi')}
-				<Header />
-			</section>
-
-			<section className = 'row profile'>
-				{leftColumn('Profile', 'fas fa-user')}
-				<Profile />
-			</section>
-
+			{section(<Header />,     'Zaid Albirawi', 'header')}
+			{section(<Profile />,    'Profile',       'profile',    'fas fa-user')}
 			<Skills />
-
-			<section className = 'row experience'>
-				{leftColumn('Experience', 'fas fa-briefcase')}
-				<Experience />
-			</section>
-
-			<section className = 'row education'>
-				{leftColumn('Education', 'fas fa-graduation-cap')}
-				<Education />
-			</section>
-
+			{section(<Experience />, 'Experience',    'experience', 'fas fa-briefcase')}
+			{section(<Education />,  'Education',     'education',  'fas fa-graduation-cap')}
 			<Projects />
-
-			<section className = 'row awards'>
-				{leftColumn('Awards', 'fas fa-trophy')}
-				<Awards />
-			</section>
-
-
-			<section className = 'row interests'>
-				{leftColumn('Interests', 'fas fa-futbol')}
-				<Interests />
-			</section>
+			{section(<Awards />,     'Awards',        'awards',     'fas fa-trophy')}
+			{section(<Interests />,  'Interests',     'interests',  'fas fa-futbol')}
 
 			<section className = 'row'>
 				<article className = 'column left'>
