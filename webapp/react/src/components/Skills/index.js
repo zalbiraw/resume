@@ -25,18 +25,18 @@ const Skills = () => (
 			</div>
 			<ul>
 				<li className = 'proficient'>Cucumber</li>
-				<li className = 'familiar'>CUDA</li>
 				<li className = 'proficient'>Express</li>
-				<li className = 'familiar'>Flask</li>
 				<li className = 'proficient'>Git</li>
 				<li className = 'familiar'>Hadoop</li>
 				<li className = 'familiar'>JUnit</li>
 				<li className = 'familiar'>NGINX</li>
 				<li className = 'familiar'>Node.js</li>
-				<li className = 'familiar'>Pandas</li>
 				<li className = 'proficient'>React.js</li>
 				<li className = 'proficient'>Selenium</li>
+				<li className = 'familiar'>SVN</li>
+				<li className = 'familiar'>Tomcat</li>
 				<li className = 'proficient'>webpack</li>
+				<li className = 'familiar'>WebSphere</li>
 			</ul>
 		</div>
 		<div className = 'skill platforms'>
