@@ -29,11 +29,11 @@
 		justify-content: center;
 		align-items: center;
 
-		height: calc(100% - 0.15in + 1px);
+		height: calc(100% - 0.5in + 1px);
 
 		&.left {
-			width: 25%;
-			padding: 0.075in 0.1in;
+			width: 30%;
+			padding: 0.25in;
 			background-color: $primary;
 
 			color: $secondary;
@@ -55,9 +55,9 @@
 		}
 
 		&.right {
-			width: 75%;
+			width: 70%;
 
-			padding: 0.075in 0.3in;
+			padding: 0.25in;
 
 			background-color: $secondary;
 
@@ -72,8 +72,8 @@
 
 			width: 80%;
 			border-top: 1px solid $secondary;
-			margin-top: -0.075in;
-			padding-top: 0.075in;
+			margin-top: -0.25in;
+			padding-top: 0.25in;
 		}
 
 	}
@@ -82,8 +82,7 @@
 		content: none;
 	}
 
-	&:first-child,
-	&:last-child {
+	&:first-child {
 		flex-grow: 1;
 	}
 

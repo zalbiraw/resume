@@ -8,7 +8,7 @@ $secondary: #F8F8F8;
 body {
 	margin: 0;
 
-	font-size: 0.15in;
+	font-size: 0.18in;
 	font-family: 'Roboto Condensed', sans-serif;
 	text-align: justify;
 }
@@ -22,6 +22,7 @@ body {
 
 .date {
 	display: flex;
+	justify-content: flex-end;
 
 	.from::after {
 		content: '-';
@@ -30,12 +31,12 @@ body {
 }
 
 .secondary-font {
-	font-size: 0.13in;
+	font-size: 0.15in;
 	font-style: italic;
 }
 
 .sub-element-spacing {
-	margin-top: 0.05in;
+	margin-top: 0.1in;
 }
 
 .bullet-style {
@@ -59,10 +60,8 @@ body {
 @import '../components/Resume/style.scss';
 @import '../components/Header/style.scss';
 @import '../components/Education/style.scss';
-@import '../components/Skills/style.scss';
-@import '../components/Experience/style.scss';
-@import '../components/Projects/style.scss';
 @import '../components/Awards/style.scss';
+@import '../components/Volunteering/style.scss';
 
 @import './print-style.scss';
 

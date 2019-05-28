@@ -21,19 +21,23 @@ const Education = () => (
 					</div>
 				</div>
 				<div className = 'gpa'>
-					4.0
+					Maintaining a 4.0
 				</div>
 			</div>
 		</div>
 		<div className = 'degree'>
 			<div className = 'column'>
 				<div className = 'title'>
-					Bachelor of Science in <span>Computer Science</span> with
-					Honours and Specialization
+					<div>Bachelor of Science in <span>Computer Science</span></div>
 				</div>
 				<div className = 'institute'>
 					Western University, London, ON, CA
 				</div>
+				<ul className = 'details'>
+					<li className = 'bullet-style'>Honours and Specialization</li>
+					<li className = 'bullet-style'>Minor in Applications of Computer Science</li>
+					<li className = 'bullet-style'>Science Internship Program</li>
+				</ul>
 			</div>
 			<div className = 'column'>
 				<div className = 'date'>
