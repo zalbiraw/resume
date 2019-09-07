@@ -30,7 +30,7 @@ const Resume = () => (
 			{section(<Skills />,     'Skills',        'skills',     'star')}
 			{section(<Experience />, 'Experience',    'experience', 'briefcase')}
 			{section(<Education />,  'Education',     'education',  'graduation-cap')}
-			{section(<Projects />,   'Projects',      'projects',   'flask')}
+			{section(<Projects />,   'Projects',      'projects',   'pencil-ruler')}
 			{section(<Awards />,     'Awards',        'awards',     'trophy')}
 			{section(<Interests />,  'Interests',     'interests',  'futbol')}
 
