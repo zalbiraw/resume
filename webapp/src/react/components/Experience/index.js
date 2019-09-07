@@ -5,6 +5,39 @@ const Experience = () => (
 		<div className = 'job'>
 			<div className = 'header'>
 				<div className = 'title'>
+					Senior Software Developer
+				</div>
+				<div className = 'date'>
+					<div className = 'from'>
+						Jun 2019
+					</div>
+					<div className = 'to'>
+						Ongoing
+					</div>
+				</div>
+			</div>
+			<div className = 'employer'>
+				OSG, London, ON, CA
+			</div>
+			<ul>
+				<li>
+					Leading the development of Check.ca with React.js and
+					Laravel.
+				</li>
+				<li>
+					Containerized the project which trimmed the initial setup
+					time from 4+ hours to few minutes and enhanced the local
+					development experience.
+				</li>
+				<li>
+					Implemented front and back end unit tests and currently
+					maintaining 100% line coverage.
+				</li>
+			</ul>
+		</div>
+		<div className = 'job'>
+			<div className = 'header'>
+				<div className = 'title'>
 					Intermediate Full Stack Developer
 				</div>
 				<div className = 'date'>
@@ -57,16 +90,6 @@ const Experience = () => (
 					Automated repository migrations by repurposing selenium
 					scripts which led to a 90% reduction of the project cost
 					from $10,000 to $1,000.
-				</li>
-				<li>
-					Prototyped a design for web application by creating
-					photoshop mockups which led to my appointment as a lead
-					role on the design and development of the application.
-				</li>
-				<li>
-					Spearheaded a group of developers in developing a
-					complex data collection application by assigning tasks
-					and conducting code reviews.
 				</li>
 			</ul>
 		</div>
