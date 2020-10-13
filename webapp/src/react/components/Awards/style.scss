@@ -1,18 +1,18 @@
 .award {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: nowrap;
-	width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 100%;
 
-	&:not(:first-child) {
-		@extend .sub-element-spacing;
-	}
+  &:not(:first-child) {
+    @extend .sub-element-spacing;
+  }
 
-	.title {
-		color: $primary;
-	}
+  .title {
+    color: $primary;
+  }
 
-	.governing-body {
-		@extend .secondary-font;
-	}
+  .governing-body {
+    @extend .secondary-font;
+  }
 }

@@ -6,54 +6,54 @@ $primary: #0075FA;
 $secondary: #F8F8F8;
 
 body {
-	margin: 0;
+  margin: 0;
 
-	font-size: 0.15in;
-	font-family: 'Roboto Condensed', sans-serif;
-	text-align: justify;
+  font-size: 0.15in;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: justify;
 }
 
 .summary {
-	display: flex;
-	align-items: center;
-	height: 100%;
-	width: 100%;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
 .date {
-	display: flex;
+  display: flex;
 
-	.from::after {
-		content: '-';
-		margin: 0 0.02in;
-	}
+  .from::after {
+    content: '-';
+    margin: 0 0.02in;
+  }
 }
 
 .secondary-font {
-	font-size: 0.13in;
-	font-style: italic;
+  font-size: 0.13in;
+  font-style: italic;
 }
 
 .sub-element-spacing {
-	margin-top: 0.05in;
+  margin-top: 0.05in;
 }
 
 .bullet-style {
-	display: flex;
-	align-items: flex-start;
+  display: flex;
+  align-items: flex-start;
 
-	&:not(:first-child) {
-		margin-top: 0.05in;
-	}
+  &:not(:first-child) {
+    margin-top: 0.05in;
+  }
 
-	&::before {
-		content: '\2022';
+  &::before {
+    content: '\2022';
 
-		margin-right: 0.1in;
+    margin-right: 0.1in;
 
-		color: $primary;
-		font-size: 0.2in;
-	}
+    color: $primary;
+    font-size: 0.2in;
+  }
 }
 
 @import '../components/Resume/style.scss';

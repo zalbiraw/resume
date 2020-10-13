@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-import Resume from '../components/Resume/index'
+import Resume from '../components/Resume/index';
 
-import './style.scss'
+import './style.scss';
 
 const App = () => <Resume />
 
-export default App
+export default App;

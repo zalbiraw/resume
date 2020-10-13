@@ -1,32 +1,31 @@
 .job {
-	width: 100%;
+  width: 100%;
 
-	.header {
-		display: flex;
-		justify-content: space-between;
+  .header {
+    display: flex;
+    justify-content: space-between;
 
-		.title {
-			color: $primary;
-		}
-	}
+    .title {
+      color: $primary;
+    }
+  }
 
-	.employer {
-		@extend .secondary-font;
-	}
+  .employer {
+    @extend .secondary-font;
+  }
 
-	ul {
-		padding-left: 0;
-		margin-bottom: 0;
+  ul {
+    padding-left: 0;
+    margin-bottom: 0;
 
-		@extend .sub-element-spacing;
+    @extend .sub-element-spacing;
 
-		li {
-			@extend .bullet-style;
-		}
-	}
+    li {
+      @extend .bullet-style;
+    }
+  }
 
-	&:not(:first-child) {
-		@extend .sub-element-spacing;
-	}
-
+  &:not(:first-child) {
+    @extend .sub-element-spacing;
+  }
 }

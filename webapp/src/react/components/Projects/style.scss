@@ -1,20 +1,19 @@
 .project {
-	width: 100%;
+  width: 100%;
 
-	& > .title {
-		color: $primary;
-	}
+  & > .title {
+    color: $primary;
+  }
 
-	.github {
-		@extend .secondary-font;
-	}
+  .github {
+    @extend .secondary-font;
+  }
 
-	.details {
-		@extend .sub-element-spacing;
-	}
+  .details {
+    @extend .sub-element-spacing;
+  }
 
-	&:not(:first-child) {
-		@extend .sub-element-spacing;
-	}
-
+  &:not(:first-child) {
+    @extend .sub-element-spacing;
+  }
 }

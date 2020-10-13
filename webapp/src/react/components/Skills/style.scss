@@ -1,74 +1,72 @@
 .skill {
-	display: flex;
+  display: flex;
 
-	width: 100%;
+  width: 100%;
 
-	&.platforms {
-		align-items: center;
+  &.platforms {
+    align-items: center;
 
-		.filler {
-			flex-grow: 1;
-		}
+    .filler {
+      flex-grow: 1;
+    }
+  }
 
-	}
+  .title {
+    min-width: 100px;
+    padding: 5px 0;
 
-	.title {
-		min-width: 100px;
-		padding: 5px 0;
+    &::after {
+      content: ':';
+    }
+  }
 
-		&::after {
-			content: ':';
-		}
-	}
+  ul {
+    display: flex;
+    flex-wrap: wrap;
 
-	ul {
-		display: flex;
-		flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
 
-		margin: 0;
-		padding: 0;
+    li {
+      padding: 3px;
+      margin: 2px;
+      border-radius: 5px;
 
-		li {
-			padding: 3px;
-			margin: 2px;
-			border-radius: 5px;
+      list-style: none;
 
-			list-style: none;
+      &.proficient {
+        color: $secondary;
+        background-color: $primary;
+        border: 1px solid $primary;
+      }
 
-			&.proficient {
-				color: $secondary;
-				background-color: $primary;
-				border: 1px solid $primary;
-			}
+      &.familiar {
+        color: $primary;
+        border: 1px solid $primary;
+      }
+    }
+  }
 
-			&.familiar {
-				color: $primary;
-				border: 1px solid $primary;
-			}
+  .indicators {
+    display: flex;
 
-		}
-	}
+    .indicator {
+      padding: 0 5px;
 
-	.indicators {
-		display: flex;
+      &::before {
+        content: '';
+        display: inline-block;
+        width: 8px;
+        height: 8px;
 
-		.indicator {
-			padding: 0 5px;
+        border: 1px solid $primary;
+        border-radius: 10px;
+        margin-right: 5px;
+      }
+    }
 
-			&::before {
-				content: '';
-				display: inline-block;
-				width: 8px;
-				height: 8px;
-
-				border: 1px solid $primary;
-				border-radius: 10px;
-				margin-right: 5px;
-			}
-		}
-
-		.proficient::before {
-			background-color: $primary
-		}
-	}
+    .proficient::before {
+      background-color: $primary
+    }
+  }
 }

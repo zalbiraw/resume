@@ -1,17 +1,17 @@
 @media print {
-	body {
-		-webkit-print-color-adjust: exact!important;
-	}
+  body {
+    -webkit-print-color-adjust: exact!important;
+  }
 
-	.resume-container {
-		margin: 0;
-	}
+  .resume-container {
+    margin: 0;
+  }
 
-	.resume {
-		box-shadow: none;
-	}
+  .resume {
+    box-shadow: none;
+  }
 }
 
 @page {
-	margin: 0;
+  margin: 0;
 }
