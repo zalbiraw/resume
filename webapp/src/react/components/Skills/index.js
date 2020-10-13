@@ -7,7 +7,6 @@ export default () => (
         Languages
       </div>
       <ul>
-        <li className = 'familiar'>Assembly</li>
         <li className = 'proficient'>C</li>
         <li className = 'familiar'>C++</li>
         <li className = 'proficient'>HTML/CSS</li>
@@ -15,6 +14,7 @@ export default () => (
         <li className = 'proficient'>JavaScript/ES6</li>
         <li className = 'familiar'>PHP</li>
         <li className = 'familiar'>Python</li>
+        <li className = 'familiar'>Ruby</li>
       </ul>
     </div>
     <div className = 'skill frameworks'>
@@ -22,11 +22,9 @@ export default () => (
         Frameworks
       </div>
       <ul>
-        <li className = 'familiar'>Cucumber</li>
         <li className = 'familiar'>CUDA</li>
         <li className = 'familiar'>Enzyme</li>
         <li className = 'familiar'>Express</li>
-        <li className = 'familiar'>Flask</li>
         <li className = 'proficient'>Git</li>
         <li className = 'familiar'>Hadoop</li>
         <li className = 'familiar'>JUnit</li>
@@ -37,8 +35,9 @@ export default () => (
         <li className = 'familiar'>Pandas</li>
         <li className = 'familiar'>phpUnit</li>
         <li className = 'proficient'>React.js</li>
+        <li className = 'familiar'>Ruby on Rails</li>
         <li className = 'familiar'>Selenium</li>
-        <li className = 'familiar'>webpack</li>
+        <li className = 'proficient'>webpack</li>
       </ul>
     </div>
     <div className = 'skill platforms'>
