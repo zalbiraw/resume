@@ -21,17 +21,17 @@ export default () => (
       </div>
       <ul>
         <li>
-          Leading the development of Check.ca with React.js and
-          Laravel.
+          Contributed to the restructuring of the OSG Online project and 
+          helped build development and production environements for the 
+          different services in Docker.
         </li>
         <li>
-          Containerized the project which trimmed the initial setup
+          Led the development of Check.ca using React.js and Laravel.
+        </li>
+        <li>
+          Containerized the Check.ca project which trimmed the initial setup
           time from 4+ hours to few minutes and enhanced the local
           development experience.
-        </li>
-        <li>
-          Implemented front and back end unit tests and currently
-          maintaining 100% line coverage.
         </li>
       </ul>
     </div>
@@ -89,7 +89,8 @@ export default () => (
         <li>
           Automated repository migrations by repurposing selenium
           scripts which led to a 90% reduction of the project cost
-          from $10,000 to $1,000.
+          from $10,000 to $1,000 as well as trimming the project timeline
+          from a few months to a weekend.
         </li>
       </ul>
     </div>
