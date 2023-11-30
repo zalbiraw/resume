@@ -1,0 +1,21 @@
+.profile {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0.1in 0;
+
+	img {
+		margin: 0.1in 0;
+		border-radius: 50%;
+		height: 2.0in;
+		width: 2.0in;
+		object-fit: cover;
+	}
+
+	.name {
+		font-size: 0.375in;
+		font-weight: 600;
+		font-family: 'Lato', sans-serif;
+	}
+}

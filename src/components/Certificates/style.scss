@@ -1,0 +1,18 @@
+.certificate {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 100%;
+
+  .title {
+    color: $primary;
+  }
+
+  .issuer {
+    @extend .secondary-font;
+  }
+
+  &:not(:first-child) {
+    @extend .sub-element-spacing;
+  }
+}

@@ -1,37 +1,12 @@
 version: '3.7'
 
 services:
-
   master_chief:
-
     build:
       context: .
-      dockerfile: ./webapp/Dockerfile
-
-    environment:
-      ENVIRONMENT: ${ENVIRONMENT}
-      WEBAPP_PORT: ${WEBAPP_PORT}
-
+      dockerfile: Dockerfile
     volumes:
-      - ./webapp/src:/var/www/src
-      - ./webapp/public:/var/www/public
+      - ./src:/var/www/src
       - /var/www/src/node_modules
-
-  cortana:
-
-    build:
-      context: .
-      dockerfile: ./reverse-proxy/Dockerfile
-
-    environment:
-      ENVIRONMENT: ${ENVIRONMENT}
-
-      WEBAPP_HOST:  ${WEBAPP_HOST}
-      WEBAPP_PORT:  ${WEBAPP_PORT}
-
-    volumes:
-      - ./reverse-proxy/config-templates:/etc/nginx/config-templates
-      - ./webapp/public:/var/www/public
-
     ports:
       - "80:80"
