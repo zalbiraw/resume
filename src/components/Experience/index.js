@@ -62,14 +62,18 @@ const Experience = () => (
 			</div>
 			<ul>
 				<li>
-					Unlocked 100s of thousands of dollars in revenue by investigating and writing
-					integrations for different deployment technologies such as OpenShift, k8s,
+					Unlocked hundreds of thousands of dollars in revenue by investigating and writing
+					integrations for different deployment technologies such as OpenShift, Kubernetes,
 					Ansible, Helm, and Docker.
 				</li>
 				<li>
 					Identified a lack of visibility with our gateway&apos;s performance and created an Ansible
 					playbook to generate performance testing on the three major clouds
 					(AWS, GCP , and Azure) which led to an increase product performance visibility.
+				</li>
+				<li>
+					Mentored engineers and identified a curriculum of courses to help them up-skill and become
+					subject matter experts in different domains of the product.
 				</li>
 			</ul>
 		</div>
@@ -92,11 +96,14 @@ const Experience = () => (
 			</div>
 			<ul>
 				<li>
-					Led complex infrastructure discussions and white boarding sessions to help clients plan
-					for deployments across multiple clouds and different deployment strategies and tools.
+					Led complex infrastructure discussions and white boarding sessions to help clients
+					deploy Tyk across multiple clouds and using different deployment strategies.
 				</li>
 				<li>
-					Built a library to consume and auto-document configuration to enhance usability.
+					Created Tyk Ansible playbook to enable clients to install Tyk on bare metal servers.
+				</li>
+				<li>
+					Built a library to consume and auto-document Tyk configuration to enhance usability.
 				</li>
 			</ul>
 		</div>

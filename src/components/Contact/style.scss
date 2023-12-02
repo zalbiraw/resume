@@ -1,6 +1,6 @@
 .contact-information {
 	width: 100%;
-	margin: 0.1in 0;
+	@extend .sub-element-spacing;
 
 	i {
 		margin-right: 0.1in;

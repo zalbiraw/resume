@@ -9,6 +9,7 @@ import Certificates from '../Certificates';
 import Interests    from '../Interests';
 import Profile      from '../Profile';
 import Awards       from '../Awards';
+import Projects     from '../Projects';
 
 const Resume = () => (
   <div className = 'resume-container'>
@@ -21,18 +22,20 @@ const Resume = () => (
 					<div className = 'ruler' />
 					<AboutMe />
 					<div className = 'ruler' />
+					<Certificates />
+					<div className = 'ruler' />
 					<Awards />
+					<div className = 'ruler' />
+					<Projects />
 					<div className = 'ruler' />
 					<Interests />
 				</div>
 				<div className = 'column right'>
-					<Experience />
-					<div className = 'ruler' />
 					<Skills />
 					<div className = 'ruler' />
-					<Education />
+					<Experience />
 					<div className = 'ruler' />
-					<Certificates />
+					<Education />
 				</div>
 			</div>
     </div>

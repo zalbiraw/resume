@@ -9,7 +9,7 @@ const Education = () => (
     <div className = 'degree'>
       <div className = 'column'>
         <div className = 'title'>
-          Master of Science with <span>Artificial Intelligence</span> Specialization (ABD)
+					MSc with <span>Artificial Intelligence</span> Specialization (ABD)
         </div>
         <div className = 'institute'>
           Western University, London, ON, CA
@@ -32,7 +32,7 @@ const Education = () => (
     <div className = 'degree'>
       <div className = 'column'>
         <div className = 'title'>
-          Bachelor of Science in <span>Computer Science</span> with
+					BSc in <span>Computer Science</span> with
           Honours and Specialization
         </div>
         <div className = 'institute'>
