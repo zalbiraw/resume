@@ -8,7 +8,7 @@ const Interests = () => (
 		</div>
     <div className = 'interests'>
       Soccer, basketball, snowboarding, camping, sailing,
-			gaming, travelling.
+			gaming, and travelling.
     </div>
   </article>
 );

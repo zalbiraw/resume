@@ -12,7 +12,7 @@ const Skills = () => (
       </div>
       <ul>
 				<li className = 'intermediate'>GoLang</li>
-				<li className = 'intermediate'>GraphQL</li>
+				<li className = 'proficient'>GraphQL</li>
 				<li className = 'intermediate'>Python</li>
         <li className = 'proficient'>HTML/CSS</li>
         <li className = 'proficient'>JavaScript/ES6</li>
@@ -27,11 +27,11 @@ const Skills = () => (
       <ul>
 				<li className = 'proficient'>Kubernetes</li>
 				<li className = 'proficient'>Docker</li>
-				<li className = 'intermediate'>Terraform</li>
+				<li className = 'proficient'>Terraform</li>
 				<li className = 'intermediate'>Ansible</li>
 				<li className = 'proficient'>Git</li>
         <li className = 'intermediate'>Node.js</li>
-        <li className = 'intermediate'>React.js</li>
+        <li className = 'proficient'>React.js</li>
       </ul>
     </div>
     <div className = 'skill platforms'>

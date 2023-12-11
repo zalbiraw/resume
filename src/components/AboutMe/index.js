@@ -7,13 +7,13 @@ const AboutMe = () => (
 			About Me
 		</div>
     <div className = 'about-me'>
-      Detail-oriented software engineer with a decade of experience
-      in full stack development, high-performance computing,
-			machine learning, and networking. Team player with a positive
-			outlook to ensure optimal performance. Energetic, versatile
-			and loves learning.<br /><br />
-			Recently, I have been more involved in infrastructure engineering,
-			high availability and cloud-agnostic deployments.
+      Detail-oriented software engineer with a decade of experience in the industry. I have
+			occupied different software engineering roles across the stack as well as teaching
+			roles and most recently solution architecture and sales engineering roles.
+      I have experience in full stack development, high-performance computing, machine learning,
+			networking, infrastructure engineering, high availability and cloud-agnostic deployments.
+			Team player with a positive outlook to ensure optimal performance. Energetic, versatile
+			and loves learning.
     </div>
   </article>
 );
